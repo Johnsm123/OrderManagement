@@ -1,0 +1,16 @@
+WORKSPACE/ordermanager/
+├── pom.xml
+├── src/
+│   ├── main/
+│   │   └── java/com/example/
+│   │       ├── entity/
+│   │       │   └── Order.java
+│   │       ├── service/
+│   │       │   ├── OrderService.java
+│   │       │   └── OrderServiceImpl.java
+│   │       ├── util/
+│   │       │   └── DBConnectionUtil.java
+│   │       └── MainModule.java
+│   └── test/
+│       └── java/com/example/
+│           └── AppTest.java
